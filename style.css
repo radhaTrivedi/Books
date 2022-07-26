@@ -1,0 +1,304 @@
+#nav-bars{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    padding: 0 !important;
+    background: #dd2476 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left:20px ;
+}
+.navbar-nav li a{
+    color:#fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.fa-bars{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none  !important;
+}
+.dropdown-menu{
+    background-image: linear-gradient(to left ,#dd2476,#dd2476);
+    border-top: none !important;
+    float: right;
+}
+/*-----------    Slide Bar -----------------*/
+
+#slide-bar .carousel-item{
+    width: 100%;
+    height: 93vh;
+    background-image:linear-gradient(to bottom, #dd2476, #ff512f)
+  }
+  .carousel-control-prev,.carousel-control-next{
+    background-image:linear-gradient(to bottom, #dd2476, #ff512f);
+    border: none !important;
+  }
+  #slide-bar p{
+      text-align: justify;
+      margin-left: 150px;
+      margin-top: 150px;
+      font-size: 20px;
+  }
+  
+  .carousel-caption p{
+      text-align: center !important;
+      font-size: 20px !important;
+      margin: 0px !important;
+  }
+  .carousel-caption{
+      margin-top: 10px !important;
+  }
+  .carousel-caption h2{
+      font-size: 55px !important;
+  }
+  .carousel-caption img{
+     height: 250px;
+     width: 250px;
+     margin-top: 20px !important;
+  }
+  /*---------------- Register --------------------*/
+  #register{
+      margin-top: 50px;
+      height: 550px;
+    
+  }
+  #register h1{
+      margin-bottom: 20px;
+      color: #dd2476;
+  }
+  label{
+      font-size: 20px;
+  }
+
+  .inputclass
+  {
+     margin-left: 120px;
+     padding-left: 15px;
+
+  }
+  .inputclass2
+  {
+     margin-left: 80px;
+     padding-left: 15px;
+
+  }
+  .vertical-or hr{
+      width: 1px;
+      height: 45%;
+      background-color: #949ca2;
+  }
+  .pdiv a,button{
+      margin-left: 180px;
+      
+  }
+  .pdiv1 a,button{
+    margin-left: 180px;
+
+  }
+  .pdiv  a{
+      color:#dd2476
+  }
+  .pdiv1  a{
+    color:#dd2476
+}
+  .pdiv .signbtn{
+      border: 20px;
+      color: #fff;
+      padding: 5px;
+      font-size: 22px;
+  }
+  .pdiv1 .signbtn{
+    border: 20px;
+    color: #fff;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.loginclass  button{
+      border: 20px;
+      color: #fff;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      font-size: 25px;
+      text-align: center;
+      margin-top: 10px;
+} 
+/*---------------------- Card View --------------------*/
+#books{
+    background:#f8f9fa;
+    padding: 25px;
+}
+#books img{
+    height: 250px;
+    width: 245px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+}
+#books .card{
+    width: 250px;
+    border: 2px solid #dd2476;
+    border-radius: 20px;
+
+}
+#books h1{
+    color: #dd2476;
+}
+/*-------------------- about-us------------------*/
+
+.about-us{
+    padding: 80px;
+    margin-top: 20px;;
+  }
+  
+  .about-us .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 75%;
+    border-radius: 0.2em;
+  }
+  
+  .about-us .row .col-md-6:last-child {
+    position: relative;
+  }
+  
+  .about-us .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .about-us .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .about-us .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: #dd2476
+  }
+  
+/*------------testinomials----------------------*/
+
+#testinomials{
+    background: #f8f9fa;
+}
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url("images/testino.jpeg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+  }
+  
+  .cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  
+  .cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 19vmin;
+  }
+  
+  
+  .numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+  }
+  
+.numbers {
+    margin-top: -15vmin;
+  }
+
+.numbers .test-img{
+      height: 80px;
+      width: 80px;
+      border-radius: 50%;
+  }
+  
+  
+  .numbers .rect h1 {
+    color: tomato;
+  }
+  
+  
+
+
+/*-------------------- footer -----------------*/
+#footer{
+    background-image:linear-gradient(to bottom, #dd2476, #ff512f);
+    color: #fff;
+}
+#footer .footer-img{
+    width: 100%;
+}
+ 
+.footer-box img{
+	width:120px;
+	margin-bottom:20px;
+}
+.footer-box .fa{
+	margin-right:8px;
+	font-size:25px;
+	height:40px;
+	width:40px;
+	text-align:center;
+	padding-top:7px;
+	border-radius:2px;
+    background-image:linear-gradient(to bottom, #dd2476, #ff512f);
+}
+.footer-box .btn-primary{
+    box-shadow:none !important;
+	border:none;
+	border-radius:0;  
+	margin-top:30px;
+    background-image:linear-gradient(to bottom, #dd2476, #ff512f);
+
+}
+hr{
+	background-color:#fff;
+}
+.clean{
+	margin-bottom:0px;
+	padding-bottom:20px;
+	text-align:center;
+}
